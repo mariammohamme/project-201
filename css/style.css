@@ -12,3 +12,25 @@ body{
     
     
 }
+h2{
+    background-color: palevioletred;
+    color: blue;
+    text-align: left;
+    font-size: x-large;
+}
+.li-fav{
+    color: burlywood;
+    font-size: 30px;
+}
+h3{
+    background-color: palevioletred;
+    color: blue;
+    text-align: left;
+    font-size: x-large;
+    
+}
+.ul-topic{
+    color: burlywood;
+    font-size: 30px;
+
+}
