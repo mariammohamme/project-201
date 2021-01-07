@@ -1,6 +1,5 @@
 'use strict';
 var score = 0;
-var total ;
 alert('welcome');
 //question one
 function guesswho (){
@@ -153,15 +152,14 @@ function guessFname (){
         {
             alert('you gust');
             score++;
-            
+            break;
         }else if (parseInt(favNam ) > 3)
         {
             alert('too hight');
-        }else if (parseInt(favNam ) < 3)
+        }else 
         {
             alert('too low');
         }
-        break;
     }
     return favNam;
 }
