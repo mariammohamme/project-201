@@ -4,17 +4,19 @@ alert('welcome');
 //question one
 function guesswho (){
     var userHow = prompt('Do you know who I am?');
-    if (userHow.toLowerCase() === 'y' || userHow.toUpperCase() === 'YES') {
-        alert('this is Expected')
+    if (userHow.toLowerCase() === 'y' || userHow.toUpperCase() === 'YES' ) {
+        alert('this is Expected');
     } else if (userHow.toLowerCase() === 'n' || userHow.toUpperCase() === 'NO') {
         alert('lets try to know us');
-    } else {
+    }  else {
         console.log('please enter some answer like y or YES');
-        alert("please enter some answer like y or YES");
+       alert("please enter some answer like y or YES");
+       userHow = prompt('Do you know who I am?');
     }
     return userHow;
 }
 guesswho();
+
 
 /*var userHow = prompt('Do you know who I am?');
 if (userHow.toLowerCase() === 'y' || userHow.toUpperCase() === 'YES') {
@@ -32,9 +34,9 @@ if (userHow.toLowerCase() === 'y' || userHow.toUpperCase() === 'YES') {
 //question two
 function guessTwinz(){
     var userTwinz = prompt('I have twins, how many twins do 1 ?!?');
-    if (userTwinz.toLowerCase() === 'y' || userTwinz.toUpperCase() === 'YES') {
-        alert('YES I HAVE JUST ONE TWINNS')
-    } else if (userTwinz.toLowerCase() === 'n' || userTwinz.toUpperCase() === 'NO') {
+    if (userTwinz.toLowerCase === 'y' || userTwinz.toUpperCase() === 'YES' ) {
+        alert('YES I HAVE JUST ONE TWINNS');
+    } else if (userTwinz.toLowerCase() === 'n' || userTwinz.toUpperCase() === 'NO' ) {
         alert('BELIVE ME JUST ONE');
     } else {
         console.log('please enter some answer like y or YES');
@@ -59,8 +61,8 @@ if (userTwinz.toLowerCase() === 'y' || userTwinz.toUpperCase() === 'YES') {
 //question three
 function guessSchool(){
     var userShool = prompt('I studied in 10 schools Do you believe me?!?');
-    if (userShool.toLowerCase() == 'y' || userShool.toUpperCase() == 'YES') {
-        alert('thx this is true ')
+    if (userShool.toLowerCase() == 'y' || userShool.toUpperCase() == 'YES' ) {
+        alert('thx this is true ');
     } else if (userShool.toLowerCase() == 'n' || userShool.toUpperCase() == 'NO') {
         alert('why dont belive that');
     } else {
@@ -86,8 +88,8 @@ if (userShool.toLowerCase() == 'y' || userShool.toUpperCase() == 'YES') {
 //question four
 function guessAnimal(){
     var userAnimal = prompt('I have a phobia of all animals, unfortunately, do you have this phobia like me??');
-    if (userAnimal.toLowerCase() == 'y' || userAnimal.toUpperCase() == 'YES') {
-        alert('this is big problem i can feel u ')
+    if (userAnimal.toLowerCase() == 'y' || userAnimal.toUpperCase() == 'YES' ) {
+        alert('this is big problem i can feel u ');
     } else if (userAnimal.toLowerCase() == 'n' || userAnimal.toUpperCase() == 'NO') {
         alert('you are vary lucky belive me');
     }
@@ -115,8 +117,8 @@ else {
 //question five
 function guessGust(){
     var userGust = prompt('now i know how are u??');
-    if (userGust.toLowerCase() == 'y' || userGust.toUpperCase() == 'YES') {
-        alert('wondreful ')
+    if (userGust.toLowerCase() == 'y' || userGust.toUpperCase() == 'YES' ) {
+        alert('wondreful ');
     } else if (userGust.toLowerCase() == 'n' || userGust.toUpperCase() == 'NO') {
         alert('i hope to know you soon');
     }

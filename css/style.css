@@ -1,36 +1,42 @@
+body{
+    background-color: #e7e7de;
+}
+.div-nav ul li{
+    display: inline-block;
+    float: right;
+    color: blue;
+    position: relative;
+    TOP:10px;
+    width:100px;
+    height:100px;
+}
+.continer-p1{
+    position: static;
+    top: 200px;
+    bottom: 0px;
+    color: blue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
 #p_info
 {
-    background-color: palevioletred;
     color: blue;
     text-align: center;
     font-size: x-large;
-
-
 }
-body{
-    background-color: cadetblue;
-    
-    
+.p1{
+    position: absolute;
+    top:50px;
+    right: 200px;
+    text-align: center;
 }
-h2{
-    background-color: palevioletred;
-    color: blue;
-    text-align: left;
-    font-size: x-large;
-}
-.li-fav{
-    color: burlywood;
-    font-size: 30px;
-}
-h3{
-    background-color: palevioletred;
-    color: blue;
-    text-align: left;
-    font-size: x-large;
+.container2{
+    height: 10px;
+    width: 10px;
+    border-radius: 8px;
     
 }
-.ul-topic{
-    color: burlywood;
-    font-size: 30px;
 
-}
+
